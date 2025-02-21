@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/58d442b8a9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Logo.gif" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p>Welcome to my site</p>
+            <h1>Hi! I'm <span>Wai Yan Tun.</span></h1> Ambitious ICT Student
+            </div>
+        </div>
+    
+    </div>
+    <!-----------------------------------------------------about------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Final-year ICT student with a strong interest in data analysis and
+                        programming seeking an internship to apply my skills in data-
+                        driven decision-making, system design, and data science.
+                        Proficient in data analysis, visualization, and problem-solving,
+                        and looking for the opportunities where I can apply my skills to
+                        continue as a data analyst in my future career.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>Object-oriented Programming</li>
+                            <li><span>Web Development</span><br>Designing & Developing responsive websites</li>
+                            <li><span>Data Analysis</span><br>Analysis to find trends, patterns, and insights from data.<br>Data Visualization</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Data Resarch & Entry Role at Unilinks</span><br>Researching information of Universities in Thailand and data entry to the protal.</li>
+                            <li><span>Assistant Teacher at Gant Gaw Private School</span><br>Maths, Physics , Chemistry & Biology Teacher</li>
+                            <li><span>General Manager at BDA Magway</span><br>Volunteered at Blood Donating Association, Magway , Myanmar as a general manager.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016 - 2020</span><br>University of Medicine, Magway, Myanmar</li>
+                            <li><span>2023 - current</span><br>Rangsit University</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="your-parent-container">
+        <a href="Images/Resume_Wai Yan Tun_Internship.pdf" download class="download-resume">Download Resume</a>
+    </div>
+
+<!---------------------Projects---------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data Analysis</h2>
+                <p>Google Data Analytics Certificate Capstone Project</p>
+                <a href="https://github.com/Waiyan-Tun/Data_Analysis-On-Cyslistic-Bike-Share">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data Analysis</h2>
+                <p>Data Analysis on Call Centre Trends</p>
+                <a href="https://drive.google.com/file/d/1MKCG6Rgr29HwOhLtdyivYzr4DnwnesRY/view?usp=sharing">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data Analysis</h2>
+                <p>Data Analysis on Churn Retention</p>
+                <a href="https://drive.google.com/file/d/1-qR1aun61yBzAM48Maa3GgJ5MYxpuIdF/view?usp=sharing">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>UI/UX</h2>
+                
+                <p>Designing Interfaces of RSU Canteen Portal</p>
+                <a href="https://www.figma.com/proto/kbSMsnkcN09D2togtIwy21/ICT215_RsuCanteenPortal?node-id=0-1&t=aW8syowaNVXwGWHx-1">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-industry"></i>
+                <h2>Data Mining</h2>
+                
+                <p>Data Mining on How Music affects mental health</p>
+                <a href="https://drive.google.com/drive/folders/1MoUt1VwMCIrUb64rGtcGZQSbQvIozfTI?usp=sharing">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Online Shopping Website Development</p>
+                <a href="#">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Google Data Analytics Certificate Capstone Project</p>
+                <a href="#">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Personal Website Development</p>
+                <a href="#">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>AI Integration on FAQs Page - AI Chatbots</p>
+                <a href="https://thousandsxbets.netlify.app/faqss">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Graphic User Interface</h2>
+                <p>GUI for User Login, Menu, Bill Calculator,Tax Calculator, GPA calculator.</p>
+                <a href="#">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database Management</h2>
+                <p>Database for efficient aid management, organizing donor, recipient, and contribution data.</p>
+                <a href="#">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+            
+
+
+        </div>
+    </div>
+
+</div>
+<!------------------------------Tools---------------->
+<div id="apps">
+    <div class="container">
+        <h1 class="sub-title">Tools</h1>
+        <div class="apps-list">
+            <div>
+                
+                    <img src="vscode.png" width="60px" height="55vh">
+                    <h2>VS Code</h2>
+                
+            </div>
+            <div>
+                
+                    <img src="PyCharm_Icon.svg.png" width="60px" height="55vh">
+                    <h2>PyCharm</h2>
+                
+            </div>
+            <div>
+                
+                    <img src="eclipse-11-logo-png-transparent.png" width="60px" height="55vh">
+                    <h2>Eclipse</h2>
+                
+            </div>
+            <div>
+                
+                    <img src="R_logo.svg.png" width="60px" height="60vh">
+                    <h2>R</h2>
+                
+            </div>
+            <div>
+                
+                    <i class="fa-solid fa-database" style="color: #74C0FC;"></i>
+                    <h2>SQL</h2>
+                
+            </div>
+            <div>
+                
+                    <img src="PhpMyAdmin_logo.png" width="90px" height="55vh">
+                    <h2>phpMyAdmin</h2>
+                
+            </div>
+            <div>
+                
+                    <img src="XAMPP_Logo.png" width="60px" height="60vh">
+                    <h2>XAMPP</h2>
+                
+            </div>
+            <div>
+                
+                    <img src="Figma-logo.svg.png" width="50px" height="60vh">
+                    <h2>Figma</h2>
+                
+            </div>
+            <div>
+                
+                    <i class="fa-brands fa-unity"></i>
+                    <h2>Unity</h2>
+                
+            </div>
+            <div>
+                
+                    <img src="Microsoft_Excel_2013-2019_logo.svg" width="60px" height="60vh">
+                    <h2>Spreadsheet</h2>
+                
+            </div>
+            <div>
+                
+                    <img src="tableau-software.svg" width="60px" height="60vh">
+                    <h2>Tableau</h2>
+                
+            </div>
+            <div>
+                
+                    <img src="New_Power_BI_Logo.svg.png" width="60px" height="60vh">
+                    <h2>Microsoft Power BI</h2>
+                
+            </div>
+            <div>
+                
+                    <img src="web_icon_AIStudio.png" width="60px" height="60vh">
+                    <h2>AI Studio</h2>
+                
+            </div>
+            <div>
+            
+                    <img src="canva-logo.png" width="60px" height="60vh">
+                    <h2>Canva</h2>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!------------------------------portfolio---------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="certificates-list">
+            <div class="certificate">
+                <img src="Certificate_Google.png">
+                <div class="layer">
+                    <h3>Google Data Analytics Certificate</h3>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="SAP.png"><br>
+                <div class="layer">
+                    <h3>SAP Analytics Cloud Training</h3>
+                    
+                </div>
+                
+            </div>
+            <div class="certificate">
+                <img src="Digital_literacy.png"><br>
+                <div class="layer">
+                    <h3>Digital Literacy Test</h3>
+                    
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="power_BI.png"><br>
+                <div class="layer">
+                    <h3>Google Data Analytics Certificate</h3>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!------------------------------------contact---------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>waiyansanchez2000@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+66 840834612</p>
+                <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://www.linkedin.com/in/wai-yan-tun-a1abb2277"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-line"></i></a>
+                    <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+                <br>
+                <br>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright © Wai Yan Tun.<i class="fa-solid fa-bolt-lightning"></i></p>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+        
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyUZldrqrTkvTzX1yWIx8vHJ0HrfzGmrtlCfSmrB9JI_Mm05E57y2q0GCfqmmVYOd7W/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      
+      
+      msg.innerHTML = "Sending...";
+      msg.style.color = "#94c4d3"; 
+  
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent successfully!!!!";
+          msg.style.color = "#94c4d3";
+  
+          setTimeout(() => {
+            msg.innerHTML = "";
+          }, 5000);
+  
+          form.reset();
+        })
+        .catch(error => {
+          console.error('Error!', error.message);
+          msg.innerHTML = `Error: ${error.message}`;
+          msg.style.color = "red";
+        });
+    });
+  </script>
+  
+</body>
+</html>
