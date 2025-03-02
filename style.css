@@ -568,7 +568,7 @@ nav .fa-solid{
     }
     
     #header {
-        background-image: url(Images/iPadBackground.png); 
+        background-image: url(iPadBackground.png); 
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
